@@ -1,0 +1,29 @@
+<!-- <p>add-placement works!</p> -->
+
+<div class="controles-container">
+    <button mat-icon-button class="close-button" [mat-dialog-close]="true">
+        <mat-icon class="close-icon" color="warn">close</mat-icon>
+    </button>
+    <mat-form-field>
+      <input matInput required [(ngModel)]="vehicle" placeholder="Vehicle">
+      <mat-error>This field is mandatory.</mat-error>
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput required [(ngModel)]="latitude" placeholder="Latitude">
+      <mat-error>This field is mandatory.</mat-error>
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput required [(ngModel)]="longitude" placeholder="Longitude">
+      <mat-error>This field is mandatory.</mat-error>
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput required [(ngModel)]="timeStamp" [matDatepicker]="picker" placeholder="TimeStamp">
+      <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+      <mat-datepicker #picker></mat-datepicker>
+      <mat-error>This field is mandatory.</mat-error>
+    </mat-form-field>
+    <div class="button-row">
+      <button mat-stroked-button color="primary" (click)="onSave([vehicle, latitude, longitude, timeStamp])">Save</button>
+      <button mat-stroked-button color="accent" (click)="onClear()">Clear</button>
+    </div>
+  </div>

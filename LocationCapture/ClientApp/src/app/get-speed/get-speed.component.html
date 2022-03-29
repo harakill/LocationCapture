@@ -1,0 +1,19 @@
+<p>get-speed works!</p>
+
+<div class="controles-container">
+    <mat-form-field>
+      <input matInput required [(ngModel)]="id1" placeholder="id1">
+      <mat-error>This field is mandatory.</mat-error>
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput required [(ngModel)]="id2" placeholder="id2">
+      <mat-error>This field is mandatory.</mat-error>
+    </mat-form-field>
+    <div class="button-row">
+      <button mat-stroked-button color="primary" (click)="GetSpeedOfMovement([id1, id2])">Get Speed of Movement</button>
+      <button mat-stroked-button color="accent" (click)="onClear()">Clear</button>
+    </div>
+    <mat-form-field>
+        <input matInput [(ngModel)]="speedOfMovement">
+    </mat-form-field>
+  </div>
