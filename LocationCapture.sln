@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LocationCapture", "Location
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LocationCapture.UnitTests", "LocationCapture.UnitTests\LocationCapture.UnitTests.csproj", "{C6B8665A-041B-4E25-A466-030C9B15B629}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocationCapture.IntegrationTests", "LocationCapture.IntegrationTests\LocationCapture.IntegrationTests.csproj", "{6CE931E3-FAC1-4430-BB90-31A875703EC0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LocationCapture.IntegrationTests", "LocationCapture.IntegrationTests\LocationCapture.IntegrationTests.csproj", "{6CE931E3-FAC1-4430-BB90-31A875703EC0}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{D45899ED-FD98-46DA-A2B6-6DC4B6599E60}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{6CE931E3-FAC1-4430-BB90-31A875703EC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CE931E3-FAC1-4430-BB90-31A875703EC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6CE931E3-FAC1-4430-BB90-31A875703EC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D45899ED-FD98-46DA-A2B6-6DC4B6599E60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D45899ED-FD98-46DA-A2B6-6DC4B6599E60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D45899ED-FD98-46DA-A2B6-6DC4B6599E60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D45899ED-FD98-46DA-A2B6-6DC4B6599E60}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
