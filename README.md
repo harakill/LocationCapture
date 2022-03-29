@@ -13,12 +13,12 @@
 * Docker
 
 <p align="center">
-* 1- Applicarion is running
-  <img src="https://github.com/harakill/LocationCapture/blob/main/docs/Run.png" width="600" title="hover text">
-* 2- List of Location Capture
-  <img src="https://github.com/harakill/LocationCapture/blob/main/docs/List.png" width="600" alt="accessibility text">
-* Add Location Capture
-  <img src="https://github.com/harakill/LocationCapture/blob/main/docs/Add.png" width="600" title="hover text">
-* 3- Calc Speed of Movement
-  <img src="https://github.com/harakill/LocationCapture/blob/main/docs/Calc.png" width="600" alt="accessibility text">
+* 1- *Applicarion is running
+  <img src="https://github.com/harakill/LocationCapture/blob/main/docs/Run.png" width="800" title="hover text">
+* 2- *List of Location Capture
+  <img src="https://github.com/harakill/LocationCapture/blob/main/docs/List.png" width="800" alt="accessibility text">
+* 3- *Add Location Capture
+  <img src="https://github.com/harakill/LocationCapture/blob/main/docs/Add.png" width="800" title="hover text">
+* 4- *Calc Speed of Movement
+  <img src="https://github.com/harakill/LocationCapture/blob/main/docs/Calc.png" width="800" alt="accessibility text">
 </p>
