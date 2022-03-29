@@ -7,8 +7,6 @@ import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
 import { HomeComponent } from './home/home.component';
-import { CounterComponent } from './counter/counter.component';
-import { FetchDataComponent } from './fetch-data/fetch-data.component';
 import { PlacementComponent } from './placement/placement.component';
 
 import { MaterialModule } from './material/material.module';
@@ -23,8 +21,6 @@ import { GetSpeedComponent } from './get-speed/get-speed.component';
     AppComponent,
     NavMenuComponent,
     HomeComponent,
-    CounterComponent,
-    FetchDataComponent,
     PlacementComponent,
     AddPlacementComponent,
     GetSpeedComponent
@@ -38,9 +34,7 @@ import { GetSpeedComponent } from './get-speed/get-speed.component';
     RouterModule.forRoot([
       { path: '', component: HomeComponent, pathMatch: 'full' },
       { path: 'placement', component: PlacementComponent },
-      { path: 'get-speed', component: GetSpeedComponent },
-      { path: 'counter', component: CounterComponent },
-      { path: 'fetch-data', component: FetchDataComponent },
+      { path: 'get-speed', component: GetSpeedComponent }
     ])
   ],
   providers: [AddPlacementComponent],
