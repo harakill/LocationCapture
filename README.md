@@ -5,7 +5,7 @@
 
 * .Net Core 6, C#, SQL Server
 * Data access with Entity Framework Core 6
-* Code first approach with unitofwork pattern
+* Code first approach with unitofwork and repository pattern
 * Web API using ASP.NET Core
 * UI using Angular 13 https://localhost:44462
 * Open API with NSwag https://localhost:44462/api
@@ -13,19 +13,19 @@
 * Docker
 
 
-* 1- *Applicarion is running
+* 1- Applicarion is running
 <p align="center">
   <img src="https://github.com/harakill/LocationCapture/blob/main/docs/Run.png" width="800" title="hover text">
 </p>
-* 2- *List of Location Capture
+* 2- List of Location Capture
 <p align="center">
   <img src="https://github.com/harakill/LocationCapture/blob/main/docs/List.png" width="800" alt="accessibility text">
 </p>
-* 3- *Add Location Capture
+* 3- Add Location Capture
 <p align="center">
   <img src="https://github.com/harakill/LocationCapture/blob/main/docs/Add.png" width="800" title="hover text">
 </p>
-* 4- *Calc Speed of Movement
+* 4- Calc Speed of Movement
 <p align="center">
   <img src="https://github.com/harakill/LocationCapture/blob/main/docs/Calc.png" width="800" alt="accessibility text">
 </p>
