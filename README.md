@@ -31,5 +31,5 @@
 </p>
 * 4- Unit testing
 <p align="center">
-  <img src="https://github.com/harakill/LocationCapture/blob/main/docs/Tests.png" width="800" alt="accessibility text">
+  <img src="https://github.com/harakill/LocationCapture/blob/main/docs/Test.png" width="800" alt="accessibility text">
 </p>
