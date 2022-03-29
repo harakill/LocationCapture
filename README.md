@@ -12,13 +12,20 @@
 * Integration and Unit testing with NUnit, FluentAssertions, Moq & Respawn
 * Docker
 
-<p align="center">
+
 * 1- *Applicarion is running
+<p align="center">
   <img src="https://github.com/harakill/LocationCapture/blob/main/docs/Run.png" width="800" title="hover text">
+</p>
 * 2- *List of Location Capture
+<p align="center">
   <img src="https://github.com/harakill/LocationCapture/blob/main/docs/List.png" width="800" alt="accessibility text">
+</p>
 * 3- *Add Location Capture
+<p align="center">
   <img src="https://github.com/harakill/LocationCapture/blob/main/docs/Add.png" width="800" title="hover text">
+</p>
 * 4- *Calc Speed of Movement
+<p align="center">
   <img src="https://github.com/harakill/LocationCapture/blob/main/docs/Calc.png" width="800" alt="accessibility text">
 </p>
