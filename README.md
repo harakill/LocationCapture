@@ -11,3 +11,10 @@
 * Open API with NSwag https://localhost:44462/api
 * Integration and Unit testing with NUnit, FluentAssertions, Moq & Respawn
 * Docker
+
+<p align="center">
+  <img src="https://github.com/harakill/LocationCapture/blob/main/docs/Run.png" width="350" title="hover text">
+  <img src="https://github.com/harakill/LocationCapture/blob/main/docs/List.png" width="350" alt="accessibility text">
+  <img src="https://github.com/harakill/LocationCapture/blob/main/docs/Add.png" width="350" title="hover text">
+  <img src="https://github.com/harakill/LocationCapture/blob/main/docs/Calc.png" width="350" alt="accessibility text">
+</p>
