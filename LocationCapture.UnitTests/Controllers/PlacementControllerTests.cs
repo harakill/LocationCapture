@@ -126,7 +126,6 @@ namespace LocationCapture.UnitTests.Controllers
         {
             var placement = new Placement
             {
-                Id = 1,
                 Latitude = It.IsAny<int>(),
                 Longitude = It.IsAny<int>(),
                 TimeStamp = DateTime.Now,

@@ -26,7 +26,7 @@ namespace LocationCapture.Persistence.Repositories
 
                 var diffTimeStamp = placement2.TimeStamp - placement1.TimeStamp;
 
-                speedOfMovement = distance / diffTimeStamp.Hours;
+                speedOfMovement = distance / diffTimeStamp.Hours * 1000; // convert to KM/H
             }
 
             return speedOfMovement;
